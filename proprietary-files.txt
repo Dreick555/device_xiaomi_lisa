@@ -1,4 +1,4 @@
-# Device proprietary files - from lisa MIUI V13.0.3.0.SKOCNXM package, unless pinned
+# Device proprietary files - from lisa MIUI V13.0.6.0.SKOCNXM package, unless pinned
 
 # ACDB
 vendor/etc/acdbdata/CDP/CDP_Bluetooth_cal.acdb
