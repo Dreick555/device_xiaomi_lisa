@@ -193,8 +193,7 @@ PRODUCT_COPY_FILES += \
 
 # DRM
 PRODUCT_PACKAGES += \
-    android.hardware.drm@1.3.vendor \
-    android.hardware.drm@1.3-service.clearkey
+    android.hardware.drm@1.3.vendor
 
 # Fastbootd
 PRODUCT_PACKAGES += \
@@ -275,7 +274,6 @@ PRODUCT_PACKAGES += \
 
 # Media
 PRODUCT_PACKAGES += \
-    android.hardware.media.omx@1.0-impl \
     android.hardware.media.omx@1.0-service \
     libavservices_minijail_32 \
     libminijail \
@@ -293,8 +291,6 @@ PRODUCT_PACKAGES += \
     libOmxQcelp13Enc \
     libqdMetaData \
     libqdMetaData.system \
-    libOmxVdec \
-    libOmxVenc \
     libstagefrighthw \
     libstagefright_omx.vendor
 
@@ -331,7 +327,6 @@ PRODUCT_SOONG_NAMESPACES += \
 
 PRODUCT_PACKAGES += \
     com.android.nfc_extras \
-    com.gsma.services.nfc \
     com.nxp.nfc.nq \
     NQNfcNci \
     Tag
